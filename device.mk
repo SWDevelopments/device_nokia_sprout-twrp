@@ -21,8 +21,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.trinket
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.trinket \
+# Shared libraries
+PRODUCT_PACKAGES += \
     libgptutils \
     libz \
     libcutils
